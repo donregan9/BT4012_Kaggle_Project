@@ -12,11 +12,11 @@ BT4012_Kaggle_Project/
 │   ├── test.csv
 │   ├── txs_edgelist.csv
 │   └── sample_submission.csv
-├── final_pipeline.py
-└── final_pipeline_notebook.ipynb
+├── e1157135.ipynb
+└── requirements.txt
 ```
 
-The notebook and Python pipeline read the files from this relative path:
+The notebook reads the files from this relative path:
 
 ```python
 DATA_DIR = Path("data")
