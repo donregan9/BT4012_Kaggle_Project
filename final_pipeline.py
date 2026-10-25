@@ -1,4 +1,4 @@
-"""Temporal graph-feature LightGBM ensemble for the BT4012 competition."""
+﻿"""Temporal graph-feature LightGBM ensemble for the BT4012 competition."""
 
 from pathlib import Path
 import os
@@ -98,7 +98,7 @@ def make_model(pos_weight, seed, leaves=31):
         objective="binary", n_estimators=600, learning_rate=0.03,
         num_leaves=leaves, min_child_samples=30, subsample=0.8,
         subsample_freq=1, colsample_bytree=0.8, scale_pos_weight=pos_weight,
-        random_state=seed, n_jobs=-1, verbosity=-1,
+        random_state=seed, n_jobs=1, verbosity=-1,
     )
 
 
@@ -186,3 +186,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
