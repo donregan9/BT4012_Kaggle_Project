@@ -1,4 +1,4 @@
-# BT4012 Bitcoin Transaction Detection
+# BT4012 Bitcoin Fraud Transaction Detection
 
 ## Dataset placement
 
